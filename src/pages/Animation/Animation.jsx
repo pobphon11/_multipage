@@ -88,7 +88,7 @@ function Animation() {
           </i>
         </button>
         <button className="btn btn-primary" onClick={() => setBackgroundImage('/img/nonepic.png')}>NONE</button>
-        <button className="btn btn-primary" onClick={() => setBackgroundImage('/img/ดาวน์โหลด.jfif')}>BASKETBALL</button>
+        <button className="btn btn-primary" onClick={() => setBackgroundImage('./img/ดาวน์โหลด.jfif')}>BASKETBALL</button>
         <button className="btn btn-primary" onClick={() => setBackgroundImage('./img/football.webp')}>FOOTBALL</button>
         <button className="btn btn-primary" onClick={() => setBackgroundImage('./img/volley.png')}>VOLLEYBALL</button>
         <button className="btn btn-primary" onClick={() => setBackgroundImage('./img/stdempimg.jpeg')}>HUMAN</button>
