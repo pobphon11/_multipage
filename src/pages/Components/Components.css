@@ -1,0 +1,47 @@
+.Components-container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+    border: 1px solid black;
+    min-width: 800px;
+    border-radius: 0.5rem;
+    width: 900px;
+    background-image: url('./public/night.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+  }
+  
+  .App-container {
+    height: 100%;
+  }
+  
+  
+  .name{
+    text-align: center;
+    color: black;
+    background-color: white;
+    border-radius: 0.5rem;
+    width: 400px;
+    margin:10px  auto;
+  }
+  
+  .content{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 0.5rem;
+    padding: 0.5rem;
+  
+  
+  }
+  
+  .item2{
+    grid-column: span 2;
+  }
+  
+  .item3{
+    grid-column: span 3;
+  }
+  

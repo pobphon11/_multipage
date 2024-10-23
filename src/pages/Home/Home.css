@@ -1,0 +1,33 @@
+.home-container{
+    text-align: center;
+    border: 1px solid black;
+    height: 800px;
+}
+
+
+.home-content{
+    display: flex;
+    justify-content: space-evenly;
+    
+    height: 100%;
+    background-color: #f0f0f0;
+}
+
+.img-pob{
+    margin-top: 50px;
+    margin-right: 100px;
+    border: 1px solid black;
+    border-radius: 50%;
+    
+}
+
+
+.home-text{
+    
+    margin-top: 50px;
+}
+
+
+p{
+    font-size: 30px;
+}

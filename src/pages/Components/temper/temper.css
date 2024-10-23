@@ -1,0 +1,27 @@
+.temper-variables{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 0.5rem;
+    padding: 0.5rem;
+
+}
+
+.temper-container{
+    border: 1px solid black;
+    padding-bottom: 0.5rem;
+    border-radius: 0.5rem;
+    padding: 0.25rem;
+     margin-top: 1rem;
+     background-color: lightpink;;
+}
+
+.temper-title{
+    text-align: center;
+    color: red;
+}
+
+.temper-display{
+    display: flex;
+    gap: 0.5rem;
+    justify-content: space-evenly;
+}

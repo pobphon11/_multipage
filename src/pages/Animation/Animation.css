@@ -1,0 +1,39 @@
+#container {
+    border: 1px solid black;
+    margin: 10px auto;
+    width: fit-content;
+    border-radius: 5px;
+}
+
+#field {
+    border: 2px solid rgb(255, 0, 0);
+    width: 700px;
+    height: 300px;
+    margin: 10px;
+    border-radius: 5px;
+    background-image: url("./img/images.jfif");
+    background-size: 100%;
+    background-position: center;
+    margin-bottom: 10px;
+}
+
+#ball {
+    border: 1px solid green;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: white;
+    position: relative;
+    left: calc(500px - 50px - 6px);
+    top: calc(300px - 50px - 6px);
+    background-image: url(/img/nonepic.png);
+    background-size: 100%;
+    transform: rotate(0deg);
+    transition: transform 5s linear;
+}
+
+#control {
+    display: flex;
+    margin: 10px;
+    gap: 0.1rem;
+}

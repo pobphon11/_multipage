@@ -1,0 +1,29 @@
+
+
+.timer-container{
+    border: 1px solid black;
+    border-radius: 0.5rem;
+    background-color: lightsalmon;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.timer-title{
+    text-align: center;
+    color: red;
+}
+.timer-display{
+    border: 1px solid black;
+    border-radius: 0.5rem;
+    text-align: right;
+    font-size: x-large;
+    padding: 0.25rem ;
+    font-weight: bold; 
+    width: 15rem;
+}
+
+.timer-bunttons{
+    display: flex;
+    gap: 0.5rem;
+    justify-content: space-between;
+}
