@@ -73,6 +73,7 @@ const Calculator = () => {
                 {num}
               </button>
             ))}
+            <button>Test</button>
           </div>
         </div>
       </div>
